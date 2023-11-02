@@ -1,8 +1,15 @@
 {
-    "sections": {
-        "template": {
-            "type": "template-page"
-        }
-    },
-    "order": ["template"]
+  "sections": {
+    "template": {
+      "type": "template-page",
+      "custom_css": [
+        "h1 {font-family: \"BespokeDisplay-Regular\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
 }
